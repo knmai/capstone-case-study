@@ -7,7 +7,6 @@ import seaborn as sns
 data = pd.read_csv(r"C:\Users\karln\iCloudDrive\DataScience Projects\GitHub repos\capstone-case-study\historical_data\BTC-USD.csv")
 
 
-data.High.max()
 data.sample(5)
 
 #drop null value columns
